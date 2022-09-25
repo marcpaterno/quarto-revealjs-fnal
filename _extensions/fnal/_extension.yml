@@ -1,6 +1,6 @@
 title: FNAL Presentation Template
 author: Marc Paterno
-version: 0.0.1
+version: 0.0.2
 contributes:
   formats:
     revealjs:
@@ -13,10 +13,12 @@ contributes:
         Marc Paterno
         |
         <a href = "https://creativecommons.org/licenses/by-sa/4.0/">License: CC-BY-SA-4.0</a>
-      logo: mcsb.svg
-      include-in-header: favicon.html
+      logo: FNAL-Logo-NAL-Blue.png
       title-slide-attributes:
-        data-background-image: cover.jpg
+        data-background-image: fall.png
       format-resources:
-        - cover.jpg
-        - background.jpg
+        - spring.png
+        - summer.png
+        - fall.png
+        - winter.png
+        - pond.png
