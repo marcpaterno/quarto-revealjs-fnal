@@ -3,23 +3,24 @@ title: "A Sample Presentation"
 subtitle: "With the Fermilab style"
 author:  "Marc Paterno"
 date: today
-date-format: "dddd, [the] D[<sup style='font-size:65%;font-style:italic;'>th</sup>] [of] MMMM, YYYY"
+date-format: "D  MMMM, YYYY"
 self-contained: true
 format: fnal-revealjs
 ---
 
-# Chapter 1 {background-image="_extensions/marcpaterno/fnal/background.jpg"}
+# Section 1
 
-## Lorem Ipsum {background-image="_extensions/marcpaterno/fnal/background.jpg"}
+Only use sections in very long talks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Ut condimentum velit id purus euismod placerat. 
+## A normal slide
 
-- Cras semper velit non odio dignissim, sit amet efficitur justo pharetra. 
-- Sed quis dolor neque. Aenean ac accumsan elit. 
-- Nullam tellus ante, lacinia ac ligula at, tempor lobortis tortor. 
-- Nulla rutrum arcu felis, eget semper tellus sollicitudin ut. 
+Slides can have non-bulleted text.
+
+* They can also have bullet items.
+* That only makes sense if you have more than one.
+
+Bulleted and non-bulleted text can be mixed.
 
 ::: aside
-Maecenas feugiat gravida mi, egestas pretium dui faucibus sit amet.
+One can also have *asides*, which should be used sparingly for ancillary thoughts.
 :::
