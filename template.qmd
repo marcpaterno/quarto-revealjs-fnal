@@ -1,8 +1,10 @@
 ---
 title: "A Sample Presentation"
 subtitle: "With the Fermilab style"
-author:  "Marc Paterno"
-date: today
+author:
+  - name: "Marc Paterno"
+    affiliation: "Ferm National Accelerator Laboratory"
+date: last-updated  
 date-format: "D  MMMM, YYYY"
 self-contained: true
 format: fnal-revealjs
@@ -21,6 +23,6 @@ Slides can have non-bulleted text.
 
 Bulleted and non-bulleted text can be mixed.
 
-::: aside
+:::{.aside}
 One can also have *asides*, which should be used sparingly for ancillary thoughts.
 :::
