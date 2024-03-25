@@ -15,7 +15,7 @@ contributes:
         <a href = "https://creativecommons.org/licenses/by-sa/4.0/">License: CC-BY-SA-4.0</a>
       logo: FNAL-Logo-NAL-Blue.png
       title-slide-attributes:
-        data-background-image: fall.png
+        data-background-image: spring.png
       format-resources:
         - spring.png
         - summer.png

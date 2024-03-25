@@ -127,12 +127,8 @@ aside p, .aside-footnotes {
   text-align: center;
 }
 
-.title-slide h1::first-letter, h2::first-letter {
+.title-slide h1 {
   font-size: 2.5em;
-  font-family: 'Ruthie', cursive;
-  font-weight: 300;
-  color: #b22222; 
-  text-shadow: 2px 2px 2px #EEB422;
 }
 
 strong, b {
