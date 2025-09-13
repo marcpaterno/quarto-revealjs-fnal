@@ -1,9 +1,10 @@
+name: fnal
 title: FNAL Presentation Template
 author: Marc Paterno
 version: 0.0.2
 contributes:
   formats:
-    revealjs:
+    fnal-revealjs:
       slide-number: true
       menu: false
       progress: false

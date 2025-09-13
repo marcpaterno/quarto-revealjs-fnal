@@ -7,7 +7,7 @@ author:
 date: today
 date-format: "D  MMMM, YYYY"
 self-contained: true
-format: revealjs
+format: fnal-revealjs
 ---
 
 # Section 1
@@ -26,3 +26,20 @@ Bulleted and non-bulleted text can be mixed.
 :::{.aside}
 One can also have *asides*, which should be used sparingly for ancillary thoughts.
 :::
+
+## Another slide
+
+Slides can have numbered text.
+
+1. One
+2. Two
+3. Three
+
+## You can also nest bulleted lists
+
+* First
+  * nested
+  * another nested
+* Second
+  * more nested
+  * some more nested
