@@ -7,7 +7,7 @@ author:
 date: today
 date-format: "D  MMMM, YYYY"
 self-contained: true
-format: fnal-revealjs
+format: revealjs
 ---
 
 # Section 1
