@@ -1,0 +1,20 @@
+---
+title: "My Presentation"
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    resources:
+      - images/
+    title-slide-attributes:
+      data-background-image: "images/slide-background-wilson-hall.jpeg"
+      data-background-size: "cover"
+      data-background-position: "center"
+---
+
+## Slide 1
+
+This is the first slide.
+
+## Slide 2
+
+This is the second slide.
