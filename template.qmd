@@ -8,13 +8,18 @@ date: today
 date-format: "D  MMMM, YYYY"
 self-contained: true
 format: fnal-revealjs
+data-background-image: images/slide-background-wilson-hall.jpeg
 ---
 
+<div data-background-image="images/slide-background-wilson-hall-and-neighborhood.jpeg">
 # Section 1
+</div>
 
 Only use sections in very long talks.
 
+<div data-background-image="images/right_sidebar.jpeg">
 ## A normal slide
+</div>
 
 Slides can have non-bulleted text.
 

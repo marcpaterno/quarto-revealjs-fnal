@@ -1,0 +1,15 @@
+---
+title: "Test Background Image"
+format: revealjs
+self-contained: false
+resources:
+  - images/slide-background-wilson-hall.jpeg
+  - spring.png
+
+---
+
+## This is a test slide
+
+<div data-background-image="images/spring.png">
+## Section Slide Test {.section-slide}
+</div>

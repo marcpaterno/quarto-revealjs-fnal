@@ -1,0 +1,14 @@
+---
+title: "A Sample Presentation"
+subtitle: "With the Fermilab style"
+author:
+  - name: "Marc Paterno"
+    affiliation: "Ferm National Accelerator Laboratory"
+date: today
+date-format: "D  MMMM, YYYY"
+format: fnal-revealjs
+self-contained: false
+resources:
+  - images/slide-background-wilson-hall.jpeg
+
+---

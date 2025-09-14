@@ -4,22 +4,7 @@ author: Marc Paterno
 version: 0.0.2
 contributes:
   formats:
-    fnal-revealjs:
-      slide-number: true
-      menu: false
-      progress: false
-      html-math-method: plain
-      theme: fnal.scss
-      footer: |
-        Marc Paterno
-        |
-        <a href = "https://creativecommons.org/licenses/by-sa/4.0/">License: CC-BY-SA-4.0</a>
-      logo: FNAL-Logo-NAL-Blue.png
-      title-slide-attributes:
-        data-background-image: spring.png
-      format-resources:
-        - spring.png
-        - summer.png
-        - fall.png
-        - winter.png
-        - pond.png
+    fnal-beamer:
+      theme: fnal.tex
+      # Beamer specific options will go here
+      # For now, just a placeholder

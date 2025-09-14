@@ -1,27 +1,93 @@
 /*-- scss:defaults --*/
 
-@import url(https://fonts.googleapis.com/css?family=Tangerine:300,300i,400,400i,500,500i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Caveat:300,300i,400,400i,500,500i,700,700i,800,800i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Ruthie:300,300i,400,400i,500,500i,700,700i);
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
-
-@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
-
 // fonts
-$font-family-sans-serif: 'Caveat', 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', sans-serif !default;
-   
+$font-family-sans-serif: "Aptos Display", sans-serif !default;
+
 // colors
-$body-bg: #333333 !default;
-$body-color: #333333 !default;
-$link-color: $body-color !default;
+$fnal-dk1: #343A40;
+$fnal-lt1: #FFFFFF;
+$fnal-dk2: #002855;
+$fnal-lt2: #EAEBEA;
+$fnal-accent1: #004C97;
+$fnal-accent2: #2B8282;
+$fnal-accent3: #33B9B5;
+$fnal-accent4: #CB6015;
+$fnal-accent5: #F68D2E;
+$fnal-accent6: #AF272F;
+$fnal-hlink: #004C97;
 
-$code-bg: $body-color !default;
-$code-color: $body-bg !default;
+$body-bg: $fnal-dk1 !default;
+$body-color: $fnal-lt1 !default;
+$link-color: $fnal-accent1 !default; // Using accent1 for links
+$code-bg: $fnal-lt2 !default; // Light gray for code background
+$code-color: $fnal-dk1 !default; // Dark gray for code text
 
-$code-block-bg: $body-color !default;
-$code-block-border-color: $body-color !default;
+$code-block-bg: $fnal-lt2 !default;
+$code-block-border-color: $fnal-dk2 !default; // Dark blue border for code blocks
 
 /*-- scss:rules --*/
+
+// Normal slide right-hand graphic
+// Normal slide right-hand graphic
+.reveal .slides section:not(.title-slide):not(.section-slide) {
+}
+
+// Right sidebar graphic
+.right-sidebar-graphic {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 150px; /* Adjust width as needed */
+  background-image: url("images/right_sidebar.jpeg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain; /* Ensure image fits within the width */
+  z-index: -1; /* Place behind content */
+}
+
+// Header logo
+.header-logo {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  height: 50px; /* Adjust size as needed */
+  width: auto;
+  background-image: url("../images/fermi-mark-blue-small.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+
+// Header styling
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: "Aptos Display", sans-serif;
+  color: $fnal-dk2; // Dark blue for headers
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+}
+
+.reveal h2 {
+  font-size: 1.8em;
+}
+
+.reveal h3 {
+  font-size: 1.4em;
+}
+
+.reveal h4 {
+  font-size: 1.1em;
+}
+
+.reveal h5 {
+  font-size: 0.9em;
+}
+
+.reveal h6 {
+  font-size: 0.7em;
+}
 
 .picture {
   border-style: solid;
@@ -46,21 +112,23 @@ aside p, .aside-footnotes {
   color: $body-color;
 }
 
+#title-slide {
+}
+
 #title-slide .title, #title-slide .subtitle {
-  opacity: 0.80;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
-  font-family: "Tangerine";
-  text-shadow: 2px 2px 2px #b22222;
+  font-family: "Aptos Display", sans-serif;
+  color: $fnal-lt1; // White for title and subtitle
 }
 
 #title-slide .institute, #title-slide .author, #title-slide .date {
-  opacity: 0.50;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal; // Remove italic
+  color: $fnal-lt1; // White for author, date, institute
 }
 
 #title-slide .title {
@@ -86,7 +154,19 @@ aside p, .aside-footnotes {
 #title-slide .footer a,
 #title-slide .slide-number,
 #title-slide .reveal.has-logo .slide-number {
-  color: #EEB422 !important;
+  color: $fnal-lt1 !important; // Ensure all title slide elements are white
+}
+
+// Section slide styling
+.reveal .slides section.section-slide {
+  background-size: cover;
+  background-position: center;
+  color: $fnal-lt1; // White text for section slides
+}
+
+.reveal .slides section.section-slide h1,
+.reveal .slides section.section-slide h2 {
+  color: $fnal-lt1; // White headers for section slides
 }
 
 .slide-logo {
@@ -134,4 +214,6 @@ aside p, .aside-footnotes {
 strong, b {
   font-weight: bold;
   color: #b22222;
+}
+2;
 }
