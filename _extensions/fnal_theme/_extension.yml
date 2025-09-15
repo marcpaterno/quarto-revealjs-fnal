@@ -1,0 +1,9 @@
+---
+contributes:
+  formats:
+    revealjs:
+      theme: [default, theme.scss]
+      title-slide-attributes:
+        data-background-image: "images/slide-background-wilson-hall.jpeg"
+        data-background-size: "cover"
+        data-background-position: "center"
