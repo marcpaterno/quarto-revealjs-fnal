@@ -46,3 +46,21 @@ $presentation-title-slide-text-align: left;
   top: 35%;
   left: 0;
 }
+
+.reveal .slides section:not(.title-slide) {
+  top: 0 !important;
+}
+
+.reveal .slides section:not(.title-slide) h2 {
+  font-size: 36pt;
+  text-align: left;
+  border-bottom: 5px solid #004C97;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.reveal .slides section:not(.title-slide) p {
+  font-size: 24pt;
+  text-align: left;
+  padding-top: 20px;
+}
