@@ -1,4 +1,27 @@
 /*-- scss:defaults --*/
 $font-family-sans-serif: "Helvetica", sans-serif;
+$presentation-title-slide-text-align: left;
 
 /*-- scss:rules --*/
+
+.reveal .slides h1 {
+  font-size: 63pt;
+  text-align: left;
+  display: block;
+  width: 80%;
+}
+
+#title-slide .quarto-title-author {
+    margin-top: 50px;
+}
+
+#title-slide .quarto-title-author-name {
+  font-size: 20pt;
+  color: #004C97;
+  font-weight: bold;
+}
+
+#title-slide .quarto-title-affiliation {
+  font-size: 16pt;
+  color: black;
+}

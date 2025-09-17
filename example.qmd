@@ -1,6 +1,8 @@
 ---
 title: "My Presentation"
 format: fnal_theme-revealjs
+author: "Marc Paterno"
+institute: "CSAID/DSSL"
 ---
 
 ## Slide 1
