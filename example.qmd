@@ -1,8 +1,12 @@
 ---
 title: "My Presentation"
-format: fnal_theme-revealjs
+format: 
+  fnal_theme-revealjs:
+    center-title-slide: false
 author: "Marc Paterno"
 institute: "CSAID/DSSL"
+date: "September 16, 2025"
+date-format: "MMMM D, YYYY"
 ---
 
 ## Slide 1

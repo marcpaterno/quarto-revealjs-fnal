@@ -4,24 +4,45 @@ $presentation-title-slide-text-align: left;
 
 /*-- scss:rules --*/
 
-.reveal .slides h1 {
+.reveal .slides .quarto-title-block {
+  position: relative;
+  height: 100%;
+}
+
+.reveal .slides h1.title {
   font-size: 63pt;
   text-align: left;
   display: block;
   width: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-#title-slide .quarto-title-author {
-    margin-top: 50px;
+.quarto-title-author {
+  position: absolute;
+  top: 65%;
+  left: 0;
 }
 
-#title-slide .quarto-title-author-name {
+.quarto-title-author-name {
   font-size: 20pt;
   color: #004C97;
   font-weight: bold;
 }
 
-#title-slide .quarto-title-affiliation {
+.quarto-title-affiliation {
   font-size: 16pt;
   color: black;
+}
+
+.date {
+  font-size: 16pt !important;
+  color: black;
+  border-bottom: 5px solid #004C97;
+  padding-bottom: 5px;
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  left: 0;
 }
