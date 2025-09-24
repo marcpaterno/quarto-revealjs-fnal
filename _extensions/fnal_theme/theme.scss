@@ -107,3 +107,32 @@ $presentation-title-slide-text-align: left;
   flex-grow: 0;
   white-space: nowrap;
 }
+
+/* New div for title sidebar image */
+.title-sidebar-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0; /* Position on the right edge */
+  width: 300px; /* Wider width */
+  background-image: url('/_extensions/fnal_theme/images/right_sidebar.jpeg');
+  background-size: auto 100%; /* Force fill height, retain aspect ratio */
+  background-repeat: no-repeat;
+  background-position: right center; /* Position to the right */
+  z-index: 9999; /* Bring to front */
+  display: none; /* Hidden by default */
+}
+
+
+
+/* Hide footer on title slide */
+/* body.title-slide .reveal .footer {
+  display: none !important;
+}
+
+/* Hide slide number on title slide */
+/* body.title-slide .reveal .slide-number {
+  display: none !important;
+} */
+
+
