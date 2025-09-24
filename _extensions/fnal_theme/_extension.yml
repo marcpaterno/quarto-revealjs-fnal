@@ -2,7 +2,9 @@
 contributes:
   formats:
     revealjs:
-      theme: [default, theme.scss]
+      theme: theme.scss
+      resources:
+        - images/
       title-slide-attributes:
         data-background-image: "images/slide-background-wilson-hall.jpeg"
         data-background-size: "cover"

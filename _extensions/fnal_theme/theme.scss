@@ -54,9 +54,21 @@ $presentation-title-slide-text-align: left;
 .reveal .slides section:not(.title-slide) h2 {
   font-size: 36pt;
   text-align: left;
-  border-bottom: 5px solid #004C97;
   padding-bottom: 5px;
   margin-bottom: 20px;
+  border: none;
+}
+
+.reveal .slides section:not(.title-slide) h2::before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url('/_extensions/fnal_theme/images/fermi-mark-blue-small.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .reveal .slides section:not(.title-slide) p {
