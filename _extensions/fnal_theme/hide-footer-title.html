@@ -1,0 +1,37 @@
+<script>
+  console.log("hide-footer-title.html script loaded!");
+
+  const hideFooterAndSlideNumber = (isTitleSlide) => {
+    const footer = document.querySelector('.reveal .footer');
+    const slideNumber = document.querySelector('.reveal .slide-number');
+
+    if (isTitleSlide) {
+      console.log("Title slide active - hiding footer and slide number.");
+      if (footer) {
+        footer.style.setProperty('display', 'none', 'important'); // Use !important
+      }
+      if (slideNumber) {
+        slideNumber.style.setProperty('display', 'none', 'important'); // Use !important
+      }
+    } else {
+      console.log("Non-title slide active - showing footer and slide number.");
+      if (footer) {
+        footer.style.setProperty('display', 'flex', 'important'); // Use !important
+      }
+      if (slideNumber) {
+        slideNumber.style.setProperty('display', 'block', 'important'); // Use !important
+      }
+    }
+  };
+
+  Reveal.on( 'slidechanged', event => {
+    console.log("Slide changed event fired!");
+    hideFooterAndSlideNumber(event.currentSlide.id === 'title-slide');
+  });
+
+  // Initial check in case the presentation starts on the title slide
+  Reveal.on( 'ready', event => {
+    console.log("Reveal ready event fired!");
+    hideFooterAndSlideNumber(event.currentSlide.id === 'title-slide');
+  });
+</script>

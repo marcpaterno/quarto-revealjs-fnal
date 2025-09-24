@@ -76,3 +76,34 @@ $presentation-title-slide-text-align: left;
   text-align: left;
   padding-top: 20px;
 }
+
+/* Footer styling */
+.reveal .footer {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em;
+  color: #555;
+  z-index: 100; /* Ensure it's above other content */
+}
+
+.reveal .footer-left {
+  flex-grow: 0;
+  white-space: nowrap;
+}
+
+.reveal .footer-center {
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 1in; /* Approximately 1 inch whitespace */
+  white-space: nowrap;
+}
+
+.reveal .slide-number {
+  flex-grow: 0;
+  white-space: nowrap;
+}
