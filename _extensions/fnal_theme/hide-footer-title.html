@@ -4,39 +4,39 @@
   const hideFooterAndSlideNumber = (isTitleSlide) => {
     const footer = document.querySelector('.reveal .footer');
     const slideNumber = document.querySelector('.reveal .slide-number');
-    const titleSidebarImage = document.querySelector('.title-sidebar-image'); // Select the new div
+    // const titleSidebarImage = document.querySelector('.title-sidebar-image'); // No longer controlled by JS
     const revealElement = document.querySelector('.reveal'); // For debugging class list
 
-    console.log("titleSidebarImage element: ", titleSidebarImage); // Debugging
+    console.log("titleSidebarImage element: ", document.querySelector('.title-sidebar-image')); // Debugging
 
     if (isTitleSlide) {
-      console.log("Title slide active - hiding footer and slide number, showing title sidebar image.");
+      console.log("Title slide active - hiding footer and slide number.");
       if (footer) {
         footer.style.setProperty('display', 'none', 'important');
       }
       if (slideNumber) {
         slideNumber.style.setProperty('display', 'none', 'important');
       }
-      if (titleSidebarImage) {
-        titleSidebarImage.style.setProperty('display', 'block', 'important');
-      }
+      // if (titleSidebarImage) { // No longer controlled by JS
+      //   titleSidebarImage.style.setProperty('display', 'none', 'important');
+      // }
       if (revealElement) {
-        revealElement.classList.add('has-title-sidebar'); // Keep for debugging if needed
-        console.log(".reveal element classes after adding: ", revealElement.className);
+        revealElement.classList.remove('has-title-sidebar'); // Remove class from .reveal
+        console.log(".reveal element classes after removing: ", revealElement.className);
       }
     } else {
-      console.log("Non-title slide active - showing footer and slide number, hiding title sidebar image.");
+      console.log("Non-title slide active - showing footer and slide number.");
       if (footer) {
         footer.style.setProperty('display', 'flex', 'important');
       }
       if (slideNumber) {
         slideNumber.style.setProperty('display', 'block', 'important');
       }
-      if (titleSidebarImage) {
-        titleSidebarImage.style.setProperty('display', 'none', 'important');
-      }
+      // if (titleSidebarImage) { // No longer controlled by JS
+      //   titleSidebarImage.style.setProperty('display', 'block', 'important');
+      // }
       if (revealElement) {
-        revealElement.classList.remove('has-title-sidebar'); // Keep for debugging if needed
+        revealElement.classList.remove('has-title-sidebar'); // Remove class from .reveal
         console.log(".reveal element classes after removing: ", revealElement.className);
       }
     }

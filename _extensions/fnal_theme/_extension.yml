@@ -5,11 +5,12 @@ contributes:
       theme: theme.scss
       resources:
         - images/
+      slide-number: "c/t"
+      include-after-body: hide-footer-title.html
+      template: template.html
       title-slide-attributes:
         data-background-image: "images/slide-background-wilson-hall.jpeg"
         data-background-size: "cover"
         data-background-position: "center"
-      slide-number: "c/t"
-      include-after-body: hide-footer-title.html
-      template: template.html
-      date-format: "M/D/YYYY"
+        date-format: "MMMM D, YYYY"
+      margin: 0.05

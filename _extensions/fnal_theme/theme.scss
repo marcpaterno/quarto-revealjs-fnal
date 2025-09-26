@@ -109,18 +109,43 @@ $presentation-title-slide-text-align: left;
 }
 
 /* New div for title sidebar image */
+.reveal {
+  height: 100% !important;
+}
+
 .title-sidebar-image {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0; /* Position on the right edge */
-  width: 300px; /* Wider width */
+  right: 0 !important; /* Move to right edge */
+  width: 300px !important;
+  height: 100% !important; /* Force full height */
   background-image: url('/_extensions/fnal_theme/images/right_sidebar.jpeg');
-  background-size: auto 100%; /* Force fill height, retain aspect ratio */
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: right center; /* Position to the right */
-  z-index: 9999; /* Bring to front */
-  display: none; /* Hidden by default */
+  background-position: right center;
+  z-index: 9999 !important;
+  display: block !important;
+}
+
+.reveal .slides {
+}
+
+.reveal .slides section:not(.title-slide) {
+  /* Removed width and margin from here */
+}
+
+.reveal .slides section:not(.title-slide) {
+  /* Removed width and margin from here */
+}
+
+.reveal .slides section:not(.title-slide) {
+  /* Removed padding from here */
+}
+
+.reveal .slides section:not(.title-slide) .r-stack {
+  width: 80% !important;
+  margin: 0 auto !important;
 }
 
 
@@ -135,4 +160,8 @@ $presentation-title-slide-text-align: left;
   display: none !important;
 } */
 
+.reveal .slide-number {
+  z-index: 10000 !important;
+  color: white !important;
+}
 
