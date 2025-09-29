@@ -12,6 +12,24 @@ date: "September 16, 2025"
 
 This is the first slide.
 
+* bullet one
+* bullet two
+  1. number one
+     a. sub-bullet one
+     b. sub-bullet two
+  2. number two
+* bullet three
+
 ## Slide 2
 
 This is the second slide.
+
+1. number one
+   * sub-bullet one
+   * sub-bullet two
+2. number two
+3. number three
+
+## Slide 3
+
+This should be a section break.

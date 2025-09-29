@@ -71,10 +71,26 @@ $presentation-title-slide-text-align: left;
   vertical-align: middle;
 }
 
-.reveal .slides section:not(.title-slide) p {
+.reveal .slides section:not(.title-slide) p,
+.reveal .slides section:not(.title-slide) ul,
+.reveal .slides section:not(.title-slide) ol {
   font-size: 24pt;
   text-align: left;
+}
+
+.reveal .slides section:not(.title-slide) p {
   padding-top: 20px;
+}
+
+.reveal .slides section:not(.title-slide) li {
+  padding-top: 10px;
+}
+
+.reveal .slides section:not(.title-slide) ul ul,
+.reveal .slides section:not(.title-slide) ol ol,
+.reveal .slides section:not(.title-slide) ul ol,
+.reveal .slides section:not(.title-slide) ol ul {
+  font-size: 90%;
 }
 
 /* Footer styling */
