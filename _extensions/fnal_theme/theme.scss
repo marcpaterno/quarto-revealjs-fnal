@@ -240,3 +240,8 @@ body {
 body.section-break .reveal .footer {
   display: none !important;
 }
+
+.reveal pre code {
+  font-size: 20pt;
+  font-family: "Monaco", monospace;
+}
