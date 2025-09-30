@@ -51,3 +51,30 @@ int main() {
     std::print("Hello, Quarto!\n");
 }
 ```
+
+## Two Column Example
+
+::: {.columns}
+
+::: {.column width="50%"}
+### R Plot
+
+````{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 4
+plot(cars)
+````
+:::
+
+::: {.column width="50%"}
+### Bullet List
+
+*   Item 1
+*   Item 2
+    *   Sub-item A
+    *   Sub-item B
+*   Item 3
+:::
+
+:::
