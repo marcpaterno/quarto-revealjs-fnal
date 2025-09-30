@@ -245,3 +245,8 @@ body.section-break .reveal .footer {
   font-size: 20pt;
   font-family: "Monaco", monospace;
 }
+
+.reveal .slides section:not(.title-slide) h3 {
+  font-size: 24pt;
+  text-align: left;
+}
