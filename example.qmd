@@ -1,5 +1,5 @@
 ---
-title: "My Presentation"
+title: "Sample Presentation"
 format: 
   fnal_theme-revealjs:
     center-title-slide: false
@@ -30,6 +30,14 @@ This is the second slide.
 2. number two
 3. number three
 
-## Slide 3
+## First Section {.section-break data-background-image="/_extensions/fnal_theme/images/slide-background-electronics-innards.jpeg"}
 
-This should be a section break.
+## Slide 4
+
+This comes after the section break.
+
+## Second Section {.section-break data-background-image="/_extensions/fnal_theme/images/slide-background-tracker.jpeg"}
+
+## Slide 6
+
+This comes after the second section break.
