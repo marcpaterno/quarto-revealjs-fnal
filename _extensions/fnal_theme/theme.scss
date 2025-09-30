@@ -74,7 +74,7 @@ $presentation-title-slide-text-align: left;
 .reveal .slides section:not(.title-slide) p,
 .reveal .slides section:not(.title-slide) ul,
 .reveal .slides section:not(.title-slide) ol {
-  font-size: 24pt;
+  font-size: 20pt; /* Changed to 20pt */
   text-align: left;
 }
 
@@ -90,7 +90,7 @@ $presentation-title-slide-text-align: left;
 .reveal .slides section:not(.title-slide) ol ol,
 .reveal .slides section:not(.title-slide) ul ol,
 .reveal .slides section:not(.title-slide) ol ul {
-  font-size: 90%;
+  font-size: 16pt; /* Changed to 16pt */
 }
 
 /* Footer styling */
