@@ -75,6 +75,10 @@ plot(cars)
     *   Sub-item A
     *   Sub-item B
 *   Item 3
+
+### Math Example
+
+$$ E = mc^2 $$
 :::
 
 :::
