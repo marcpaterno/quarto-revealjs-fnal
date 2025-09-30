@@ -41,3 +41,13 @@ This comes after the section break.
 ## Slide 6
 
 This comes after the second section break.
+
+## C++ Example
+
+```cpp
+#include <print>
+
+int main() {
+    std::print("Hello, Quarto!\n");
+}
+```
