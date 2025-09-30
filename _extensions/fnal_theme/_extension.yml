@@ -8,9 +8,9 @@ contributes:
       slide-number: "c/t"
       include-after-body: hide-footer-title.html
       template: template.html
+      date-format: "MMMM D, YYYY" # Moved here
       title-slide-attributes:
         data-background-image: "images/slide-background-wilson-hall.jpeg"
         data-background-size: "cover"
         data-background-position: "center"
-        date-format: "MMMM D, YYYY"
       margin: 0.05
