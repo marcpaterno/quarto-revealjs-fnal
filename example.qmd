@@ -70,7 +70,7 @@ plot(cars)
 ::: {.column width="50%"}
 ### Bullet List
 
-*   Item 1[^1]
+*   Item 1
 *   Item 2
     *   Sub-item A
     *   Sub-item B
@@ -79,8 +79,12 @@ plot(cars)
 ### Math Example
 
 $$ E = mc^2 $$
-
-[^1]: This is an example footnote.
 :::
 
 :::
+
+## Footnote Example
+
+This slide contains a footnote reference here[^1].
+
+[^1]: This is an example footnote on a separate slide.
