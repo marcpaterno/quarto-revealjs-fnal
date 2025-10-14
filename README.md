@@ -1,18 +1,32 @@
 # Quarto reveal.js template - fnal
 
-This is a not-yet-ready mutation of https://github.com/mcanouil/quarto-revealjs-storybook, the first step in the creation of a Fermilab-based theme.
-
-This is a repository for `Quarto` `reveal.js` template.
-
-![Screenshot of title slide with a logo in the top right corner, a background looking like old paper, a block center aligned in the center of the slide with a styled title and subtitle in yellow, the author and date in transparent yellow. The footer of the slide includes.](template.png)
+This is a quarto template for a Reveal.js presentation.
+It is an attempt to model the Fermilab PowerPoint theme.
 
 ## Installation
 
-This [Quarto](quarto.org) template can be installed/used using the following command:
+This [Quarto](quarto.org) template can be installed/used using the following command in a directory in which you want to create a new Quarto document:
 
 ```bash
 quarto use template marcpaterno/quarto-revealjs-fnal
 ```
+
+The file `example.qmd` shows some of the features of Quarto.
+
+You can create your own Quarto document, using a similar YAML header, by copying `example.qmd` and modifying it.
+To view the rendered document, you can use:
+
+```bash
+quarto preview <filename>
+```
+
+You can also make a static HTML version of your document by using:
+
+```bash
+quarto render <filename>
+```
+
+There is not at this time a good way to make a PDF version of your document.
 
 ## Documentation
 
