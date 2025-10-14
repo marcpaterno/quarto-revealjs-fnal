@@ -5,7 +5,7 @@ format:
     center-title-slide: false
 author: "Marc Paterno"
 institute: "CSAID/DSSL"
-date: "September 16, 2025"
+date: today
 ---
 
 ## Slide 1
