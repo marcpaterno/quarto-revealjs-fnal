@@ -5,6 +5,7 @@ contributes:
       theme: theme.scss
       resources:
         - images/
+        - template.html
       slide-number: "c/t"
       include-after-body: hide-footer-title.html
       template: template.html
