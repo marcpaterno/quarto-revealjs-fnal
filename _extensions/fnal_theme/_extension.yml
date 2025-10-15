@@ -1,12 +1,16 @@
 ---
 contributes:
+  quarto-vars:
+    sidebar: "`cat sidebar.html`"
   formats:
     revealjs:
       theme: theme.scss
       resources:
         - images/
         - sidebar.html
-      include-after-body: sidebar.html
+        - sidebar.lua
+      filters:
+        - sidebar.lua
       date-format: "MMMM D, YYYY" # Moved here
       title-slide-attributes:
         data-background-image: "images/slide-background-wilson-hall.jpeg"

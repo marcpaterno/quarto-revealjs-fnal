@@ -1,11 +1,10 @@
 ---
 title: "Sample Presentation"
-format: 
-  fnal_theme-revealjs:
-    center-title-slide: false
 author: "Marc Paterno"
-institute: "CSAID/DSSL"
 date: today
+format: revealjs
+extensions:
+  - fnal_theme
 ---
 
 ## Slide 1
