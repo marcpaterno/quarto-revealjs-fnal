@@ -5,10 +5,8 @@ contributes:
       theme: theme.scss
       resources:
         - images/
-        - template.html
-      slide-number: "c/t"
-      include-after-body: hide-footer-title.html
-      template: template.html
+        - sidebar.html
+      include-after-body: sidebar.html
       date-format: "MMMM D, YYYY" # Moved here
       title-slide-attributes:
         data-background-image: "images/slide-background-wilson-hall.jpeg"
