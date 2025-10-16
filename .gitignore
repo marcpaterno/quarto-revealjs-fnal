@@ -1,2 +1,5 @@
-example.html
-example_files/
+/.DS_Store
+/.quarto/
+**/*.quarto_ipynb
+ppt_theme/
+index_files/

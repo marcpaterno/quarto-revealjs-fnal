@@ -1,10 +1,11 @@
 ---
 title: "Sample Presentation"
+format: 
+  fnal_theme-revealjs:
+    center-title-slide: false
 author: "Marc Paterno"
+institute: "CSAID/DSSL"
 date: today
-format: revealjs
-extensions:
-  - fnal_theme
 ---
 
 ## Slide 1
@@ -29,13 +30,13 @@ This is the second slide.
 2. number two
 3. number three
 
-## First Section {.section-break data-background-image="images/slide-background-electronics-innards.jpeg"}
+## First Section {.section-break data-background-image="/_extensions/fnal_theme/images/slide-background-electronics-innards.jpeg"}
 
 ## Slide 4
 
 This comes after the section break.
 
-## Second Section {.section-break data-background-image="images/slide-background-tracker.jpeg"}
+## Second Section {.section-break data-background-image="/_extensions/fnal_theme/images/slide-background-tracker.jpeg"}
 
 ## Slide 6
 
